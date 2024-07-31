@@ -8,24 +8,24 @@ REQUIREMENTS
 
 The general pattern of the webpages should be as follows:
 * Blog Homepage
-        Navbar
-        Blog Post Card
-            Card
-            Image
-            Buttons
-        Footer
+  - Navbar
+  - Blog Post Card
+    * Card
+    * Image
+    * Buttons
+  - Footer
 * Blog Post
-        Header
-        Author Info
-            Name
-            Title
-            Current Company/School
-            Short Bio
-            Avatar
-        Social Sharing
-            Twitter
-            Facebook
-            LinkedIn
+  - Header
+  - Author Info
+    * Name
+    * Title
+    * Current Company/School
+    * Short Bio
+    * Avatar
+  - Social Sharing
+    * Twitter
+    * Facebook
+    * LinkedIn
 
 - Uses Flexbox at least once throughout the project to create a component or pattern
 - Uses CSS Grid at least once throughout the project to create the layout for pages
