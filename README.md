@@ -2,6 +2,7 @@
 Personal Blog Website for Frontend Web Development Fundamentals Nanodegree
 
 REQUIREMENTS
+
 The following pages should be present:
 1. Blog Homepage
 2. Blog Post
