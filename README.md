@@ -1,4 +1,4 @@
-# udacity-personal-blog
+# Udacity Personal Blog Project
 - Personal Blog Website for Frontend Web Development Fundamentals Nanodegree
 
 REQUIREMENTS
