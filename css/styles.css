@@ -40,6 +40,11 @@
   margin: 1em 0;
 }
 
+.animal-image {
+  height: 300px;
+  width: 300px;
+}
+
 .animal-image, .info-box, .header-text {
   flex-basis: 100%;
   margin: 1em;
@@ -57,7 +62,6 @@
 .animal-card {
   position: relative;
   margin: 0.5em;
-
 }
 
 .animal-card a::before {
