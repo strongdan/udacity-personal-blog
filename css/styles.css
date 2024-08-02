@@ -1,10 +1,18 @@
-/* Five-Color Scheme */
+
 :root {
   --cerulean: #4281a4ff;
   --verdigris: #48a9a6ff;
-  --timberwolf: #e4dfdaff;
-  --ecru: #d4b483ff;
+  --davys-gray: #50514fff;
+  --bittersweet: #f25f5cff;
+  --naples-yellow: #ffe066ff;
+  --cerulean: #247ba0ff;
+  --verdigris: #70c1b3ff;
   --indian-red: #c1666bff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--davys-gray);
 }
 
 .rubik-header-text {
@@ -12,17 +20,20 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: var(--naples-yellow);
+  text-shadow: var(--davys-gray);
 }
 
-
 .animal-card {
-  box-shadow: .75em .75em 1px rgba(0, 0, 0, 0.1);
+  box-shadow: .75em .75em 1px #2e7d79;
   padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: space-around;
   max-width: 400px;
+  background-color: var(--verdigris);
+  border: 0;
 }
 
 .info-box {
@@ -30,6 +41,7 @@
   padding: 1em;
   box-sizing: border-box;
   max-width: 300px;
+  background-color: #b3e0de;
 }
 
 .animal-card, .info-box {
@@ -43,6 +55,8 @@
   max-height:300px;
   width: auto;
   height: auto;
+  background-color: #fff;
+  padding: 0.1em;
 }
 
 .animal-image, .info-box, .header-text {
@@ -50,11 +64,23 @@
   margin: 1em;
 }
 
+.interesting-facts {
+  font-style: italic;
+  color: #fdf0be;
+  background-color: var(--bittersweet);
+  font-weight: bold;
+  margin: auto;
+  padding: 0.5em;
+  padding-bottom: 0.1em;
+  border: 0.1em solid white;
+}
+
 .text-bold {
   font-weight: bold;
 }
 
 .info-box ul {
+  margin-top: 1em;
   list-style: none;
   padding-left: 0;
 }
@@ -85,5 +111,6 @@
   margin-top: 1em;
   margin-bottom: 1em;
   width: 50%;
+  background-color: var(--ecru);
 }
 
