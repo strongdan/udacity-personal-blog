@@ -12,7 +12,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--davys-gray);
+  background-color: #99cadb;
+}
+
+.navbar {
+  background-color: var(--cerulean);
 }
 
 .rubik-header-text {
@@ -112,5 +116,9 @@ body {
   margin-bottom: 1em;
   width: 50%;
   background-color: var(--ecru);
+}
+
+.subscribe-section {
+  background-color: var(--cerulean);
 }
 
