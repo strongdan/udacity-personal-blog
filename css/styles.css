@@ -14,10 +14,6 @@
   font-style: normal;
 }
 
-.header-text {
-  font-size: 1.5em;
-  font-family: 'Georgia', 'Times New Roman', serif;
-}
 
 .animal-card {
   box-shadow: .75em .75em 1px rgba(0, 0, 0, 0.1);
@@ -33,6 +29,7 @@
   flex-basis: 100%;
   padding: 1em;
   box-sizing: border-box;
+  max-width: 300px;
 }
 
 .animal-card, .info-box {
