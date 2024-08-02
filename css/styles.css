@@ -1,3 +1,19 @@
+/* Five-Color Scheme */
+:root {
+  --cerulean: #4281a4ff;
+  --verdigris: #48a9a6ff;
+  --timberwolf: #e4dfdaff;
+  --ecru: #d4b483ff;
+  --indian-red: #c1666bff;
+}
+
+.rubik-header-text {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .header-text {
   font-size: 1.5em;
   font-family: 'Georgia', 'Times New Roman', serif;
@@ -67,11 +83,3 @@
   width: 50%;
 }
 
-/* Five-Color Scheme */
-:root {
-  --cerulean: #4281a4ff;
-  --verdigris: #48a9a6ff;
-  --timberwolf: #e4dfdaff;
-  --ecru: #d4b483ff;
-  --indian-red: #c1666bff;
-}
