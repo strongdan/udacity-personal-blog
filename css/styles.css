@@ -28,6 +28,10 @@ body {
   text-shadow: var(--davys-gray);
 }
 
+.posts {
+  width: 90%;
+}
+
 .animal-card {
   box-shadow: .75em .75em 1px #2e7d79;
   padding: 1em;
@@ -109,6 +113,12 @@ body {
   margin: auto;
   width: 90%;
 }
+
+.read-post {
+  margin: auto;
+  font-weight: bold;
+}
+
 
 .subscribe {
   margin: auto;
