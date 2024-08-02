@@ -66,3 +66,12 @@
   margin-bottom: 1em;
   width: 50%;
 }
+
+/* Five-Color Scheme */
+:root {
+  --cerulean: #4281a4ff;
+  --verdigris: #48a9a6ff;
+  --timberwolf: #e4dfdaff;
+  --ecru: #d4b483ff;
+  --indian-red: #c1666bff;
+}
