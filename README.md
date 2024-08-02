@@ -1,6 +1,6 @@
 # Udacity Personal Blog Project
 Personal Blog Website for Frontend Web Development Fundamentals Nanodegree
-
+This site can be viewed [here](https://animal-facts-blog.netlify.app/)
 REQUIREMENTS
 
 The following pages should be present:
