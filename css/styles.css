@@ -41,8 +41,11 @@
 }
 
 .animal-image {
-  height: 300px;
-  width: 300px;
+  display: block;
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
 }
 
 .animal-image, .info-box, .header-text {
