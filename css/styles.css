@@ -38,9 +38,10 @@
   padding-left: 0;
 }
 
-/* css to make entire card clickable */
 .animal-card {
   position: relative;
+  margin: 0.5em;
+
 }
 
 .animal-card a::before {
@@ -50,5 +51,12 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
 }
 
