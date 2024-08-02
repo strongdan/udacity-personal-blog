@@ -32,7 +32,12 @@ The general pattern of the webpages should be as follows:
 - Uses CSS Grid at least once throughout the project to create the layout for pages
 - Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop)
 - Ensure all content can be displayed, is legible/readable, does not overlap with other content, does not overflow viewport (content is outside initial view loaded)
-- Typography: Custom design for typography with at least 3 unique properties for each typography selector 1. Headers (h1 to h3 at minimum) <h1> 2. Paragraph Text <p> a. Bold b. Italic c. Underlined
+- Typography: Custom design for typography with at least 3 unique properties for each typography selector:
+  1. Headers (h1 to h3 at minimum) <h1>
+  2. Paragraph Text <p>
+    * Bold
+    * Italic
+    * Underlined
 - Links <a>
 - Quotes
 - Colors: At least 3 colors are used
