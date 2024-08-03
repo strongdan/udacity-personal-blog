@@ -4,49 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content=#4281a4ff />
     <title>Manatee</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2bcdf2ea8d.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
+
     <!-- facebook share link necessary code -->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0&appId=878301360342411" nonce="c51057xz"></script>
-  <!-- navbar section -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Animal Facts Blog</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="author.html">About Me</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search My Posts</button>
-      </form>
-    </div>
-  </nav>
 
-  <h1>Manatee</h1>
-    <h4>Author - <a href="author.html">Daniel Strong</a></h4>
-    <figure>
-      <img src="images/manatee.png" alt="manatee" class="animal-image">
-      <figcaption>West Indian Manatee, <em>Trichechus manatus</em></figcaption>
-    </figure>
-    <div class="social-sharing">
-      <p>Share this post</p>
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-      <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-      <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <a class="navbar-brand rubik-header-text" href="index.html">Animal Facts</a>
+      </div>
+    </nav>
+
+    <!-- header section -->
+     <div class="headline-row">
+      <h4 class="display-3 rubik-header-text">Nine-Banded manatee</h4>
+      
+      <div class="container justify-content-start">
+        <div class="row">
+          <h5 class="rubik-header-text">Author - <a href="author.html">Daniel Strong</a></h5>
+        </div>
+        <div class="row">
+            <!-- Share Text -->
+            <div class="col-auto px-0">
+                <p class="mb-0">Share:</p>
+            </div>
+            <!-- Facebook Button -->
+            <div class="col-auto px-0">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <!-- Twitter Button -->
+            <div class="col-auto px-0">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                    class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2"
+                    data-show-count="false">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <!-- LinkedIn Button -->
+            <div class="col-auto px-0">
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com"
+                    class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
     </div>
+  </div>  
+      </div>
+    <div class="bg-dark">
+      <p class="lead animal-lead text-warning w-50">manatees are mammals with leathery armor and strong claws for digging. They are distantly related to anteaters and sloths. They give birth once a year to either four males or four females.</p>
+    </div>
+    </div>
+
+    <!-- information cards -->
+    <div class="posts mt-2">
+    <div class="col-4">
+    <div class="animal-card h-100">
+      <img src="images/manatee.png" alt="manatee" class="animal-image">
+      <div class="info-box">
+        <ul>
+          <li><span class="text-bold">Scientific Name</span>: Dasypus novemcinctus</li>
+          <li><span class="text-bold">Average Length</span>: 75 cm (30 in)</li>
+          <li><span class="text-bold">Average Lifespan</span>: 12-15 years</li>
+          <li><span class="text-bold">Habitat</span>: rain forests, grasslands, and dry scrub</li>
+        </ul>
+        <p>manatees are mammals with leathery armor and strong claws for digging. They are distantly related to anteaters and sloths. They give birth once a year to either four males or four females.</p>
+      </div> <!-- end info box -->
+    </div> <!-- end animal card -->
+    </div> <!-- end column -->
+    <div class="col-6">
+    <div class="animal-card h-100">
+      <div class="row justify-content-evenly">
+        <div class="col-4">
+          <figure class="figure">
+            <img src="images/manatee-2.png" class="figure-img img-fluid rounded" alt="manatee">
+            <figcaption class="figure-caption">manatee</figcaption>
+          </figure>
+        </div>
+        <div class="col-4">
+          <figure class="figure">
+            <img src="images/manatee-3.png" class="figure-img img-fluid rounded" alt="manatee">
+            <figcaption class="figure-caption">manatee</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="info-box">
+        <p>manatees are mammals with leathery armor and strong claws for digging. They are distantly related to anteaters and sloths. They give birth once a year to either four males or four females.</p>
+      </div> <!-- end info box -->
+    </div> <!-- end animal card -->
+    </div> <!-- end column -->
+
+    </div> <!-- end cards section -->
+    
+    <!-- subscribe section -->
+    <section class="subscribe-section">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="subscribe">
+              <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
+              <div class="input-group">
+                 <input type="email" class="form-control" placeholder="Enter your email">
+                 <span class="input-group-btn">
+                 <button class="btn btn-warning" type="submit">Subscribe</button>
+                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- footer section -->
+    <footer class="text-center">
+      <div class="container p-4 pb-0">
+        <section class="mb-2">
+          <!-- Facebook -->
+          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
+          <!-- Twitter -->
+          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
+          <!-- Linkedin -->
+          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+        </section>
+      </div>
+
+      <!-- Copyright section -->
+      <div class="text-center p-3 bg-dark">
+        © 2024 Copyright Daniel Strong
+      </div>
+      
+    </footer>
   </body>
 </html>
