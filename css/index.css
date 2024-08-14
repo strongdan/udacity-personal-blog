@@ -108,6 +108,13 @@ body {
   text-align: center;
 }
 
+.footer-social {
+  background-color: #0d163a;
+  color: var(--naples-yellow);
+  text-align: center;
+  padding: 2em 0;
+}
+
 @media (max-width: 768px) {
   .animal-card {
     max-width: 100%;
