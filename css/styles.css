@@ -76,6 +76,11 @@ body {
   padding: 0.1em;
 }
 
+.figure-img {
+  background-color: #fff;
+  padding: 0.1em;
+}
+
 .animal-image, .info-box, .header-text {
   flex-basis: 100%;
   margin: 1em;
