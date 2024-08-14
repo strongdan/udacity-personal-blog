@@ -4,8 +4,6 @@
   --davys-gray: #50514fff;
   --bittersweet: #f25f5cff;
   --naples-yellow: #ffe066ff;
-  --cerulean: #247ba0ff;
-  --verdigris: #70c1b3ff;
   --indian-red: #c1666bff;
 }
 
@@ -15,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--cerulean);
+  background-color: #0d163a;
 }
 
 .navbar-nav {
