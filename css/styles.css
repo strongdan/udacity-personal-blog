@@ -1,44 +1,4 @@
-@import url('css/index.css');
-
-:root {
-  --cerulean: #4281a4ff;
-  --verdigris: #48a9a6ff;
-  --davys-gray: #50514fff;
-  --bittersweet: #f25f5cff;
-  --naples-yellow: #ffe066ff;
-  --indian-red: #c1666bff;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--davys-gray);
-}
-
-.navbar {
-  background-color: var(--cerulean);
-}
-
-.navbar-nav {
-  flex-direction: row;
-}
-
-.nav-link {
-  padding-right: .5rem !important;
-  padding-left: .5rem !important;
-}
-
-nav button {
-  padding-left: 0.5em;
-}
-
-.rubik-header-text {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--naples-yellow);
-  text-shadow: var(--davys-gray);
-}
+@import url('index.css');
 
 .headline-row {
   background-color: var(--davys-gray);
@@ -53,67 +13,35 @@ nav button {
   margin: auto;
 }
 
-.card {
+.animal-card {
+  background-color: var(--verdigris);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
   height: 100%;
-  flex: 1;
-  min-width: 400px;
-  background-color: var(--verdigris);
-  box-shadow: .75em .75em 1px #2e7d79;
-  padding: 1em;
-  border: 0;
 }
 
 .animal-image {
-  width: auto;
-  max-height: 300px;
-  object-fit: contain;
-  background-color: #fff;
-  padding: 0.1em;
-  display: block;
-  margin: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.animal-info-card {
+  margin-top: 1em;
+  background-color: var(--grim-reaper);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info-box {
   padding: 1em;
-  box-sizing: border-box;
   background-color: #b3e0de;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.read-post {
-  margin-top: auto;
-  text-align: center;
-  font-weight: bold;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* Dotted underline for hoverable text */
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-.info-box ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 1em;
-}
-
-.info-box ul li {
-  margin-bottom: 10px;
-}
-
-.animal-lead {
-  padding: 1em;
+  flex: 1;
 }
 
 .figure-img {
@@ -126,55 +54,13 @@ nav button {
   margin: 1em;
 }
 
-.interesting-facts {
-  font-style: italic;
-  color: #fdf0be;
-  background-color: var(--bittersweet);
-  font-weight: bold;
-  margin: auto;
-  padding: 1em;
-  padding-bottom: 0.1em;
-  border: 0.1em solid white;
+.read-post {
+  text-align: center;
+  margin-top: auto;
 }
 
-.text-bold {
-  font-weight: bold;
-}
-
-.animal-card a::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
-.animal-card, .additional-info-card {
-  background-color: var(--verdigris); 
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 1.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-.subscribe {
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  width: 50%;
-  background-color: var(--ecru);
-}
-
-.subscribe-section {
+.read-post .btn-info {
   background-color: var(--cerulean);
-  padding-bottom: 1em;
-}
-
-footer {
-  background-color: var(--davys-gray);
-  color: var(--naples-yellow);
+  border: none;
+  color: white;
 }
