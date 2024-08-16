@@ -28,7 +28,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" id="main-search" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-warning" type="submit">Search</button>
               </form>
             </li>
@@ -38,141 +38,143 @@
     </nav>
 
     <!-- header section -->
-     <div class="headline-row">
+     <header class="headline-row">
       <h1 class="display-3 rubik-headline-text">Animal Facts Blog</h1>
       <p class="lead text-warning">A blog about animals, including size, habitat, lifespan, and other interesting information.</p>
-    </div>
+     </header>
 
     <!-- posts section -->
-    <div class="posts mt-2">
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning shadow-lg">Atlantic Puffin</h3>
-        <img src="assets/puffin.png" alt="puffin" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>Puffins can dive to 60 meters (nearly 200 feet)</p>
+    <section>
+      <div class="posts mt-2">
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning shadow-lg">Atlantic Puffin</h3>
+          <img src="assets/puffin.png" alt="puffin" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>Puffins can dive to 60 meters (nearly 200 feet)</p>
+            </div>
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Fratercula arctica</li>
+              <li><span class="text-bold">Average Length</span>: 28 to 30 cm (11 to 12 inches)</li>
+              <li><span class="text-bold">Average Lifespan</span>: 25 years</li>
+              <li><span class="text-bold">Habitat</span>: Sea cliffs and rocky islands</li>
+            </ul>
+            <p>Puffins are small seabirds that feed by diving in the water and live in large colonies on rocky cliffs. They have short wings adapted for swimming underwater and can beat their wings up to 400 times per minute for low flight.</p>
+            <a href="puffin.html"></a>
+          </div> <!-- end info box -->
+          <div class="read-post mt-4">
+            <a href="puffin.html" class="btn btn-info">Read more</a>
           </div>
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Fratercula arctica</li>
-            <li><span class="text-bold">Average Length</span>: 28 to 30 cm (11 to 12 inches)</li>
-            <li><span class="text-bold">Average Lifespan</span>: 25 years</li>
-            <li><span class="text-bold">Habitat</span>: Sea cliffs and rocky islands</li>
-          </ul>
-          <p>Puffins are small seabirds that feed by diving in the water and live in large colonies on rocky cliffs. They have short wings adapted for swimming underwater and can beat their wings up to 400 times per minute for low flight.</p>
-          <a href="puffin.html"></a>
-        </div> <!-- end info box -->
-        <div class="read-post mt-4">
-          <a href="puffin.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
+        </div> <!-- end animal card -->
 
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning">European Hedgehog</h3>
-        <img src="assets/hedgehog.png" alt="hedgehog" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>Hedgehogs are carnivorous and lactose intolerant</p>
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning">European Hedgehog</h3>
+          <img src="assets/hedgehog.png" alt="hedgehog" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>Hedgehogs are carnivorous and lactose intolerant</p>
+            </div>
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Erinaceus europaeus</li>
+              <li><span class="text-bold">Average Length</span>: 10 inches</li>
+              <li><span class="text-bold">Average Lifespan</span>: 5 years</li>
+              <li><span class="text-bold">Habitat</span>: woodland edges, hedgerows and suburban habitats</li>
+            </ul>
+            <p>Hedgehogs are small mammals that are born with soft spines which later harden to protect them. They are mostly nocturnal and eat insects, as well as small mice, snails, lizards, frogs, eggs, and even snakes</p>
+            <a href="hedgehog.html"></a>
+          </div> <!-- end info box -->
+          <div class="read-post mt-4">
+            <a href="hedgehog.html" class="btn btn-info">Read more</a>
           </div>
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Erinaceus europaeus</li>
-            <li><span class="text-bold">Average Length</span>: 10 inches</li>
-            <li><span class="text-bold">Average Lifespan</span>: 5 years</li>
-            <li><span class="text-bold">Habitat</span>: woodland edges, hedgerows and suburban habitats</li>
-          </ul>
-          <p>Hedgehogs are small mammals that are born with soft spines which later harden to protect them. They are mostly nocturnal and eat insects, as well as small mice, snails, lizards, frogs, eggs, and even snakes</p>
-          <a href="hedgehog.html"></a>
-        </div> <!-- end info box -->
-        <div class="read-post mt-4">
-          <a href="hedgehog.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
+        </div> <!-- end animal card -->
 
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning">North Island Brown Kiwi</h3>
-        <img src="assets/kiwi.png" alt="kiwi" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>Kiwis hatch fully feathered and ready to forage on their own</p>
-          </div> 
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Apteryx mantelli</li>
-            <li><span class="text-bold">Average Height</span>: 2 feet tall</li>
-            <li><span class="text-bold">Average Lifespan</span>: 25 - 50 years</li>
-            <li><span class="text-bold">Habitat</span>: Coniferous forests</li>
-          </ul>
-          <p>The kiwi is a small flightless bird, distantly related to ostriches and emus. They have hair-like feathers, large eggs, and nostrils at the tip of their beaks.</p>
-          <a href="kiwi.html"></a>
-        </div> <!-- end info box -->
-        
-        <div class="read-post mt-4">
-          <a href="kiwi.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
-
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning">West Indian Manatee</h3>
-        <img src="assets/manatee.png" alt="manatee" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>The Manateeʼs closest living relative is the elephant</p>
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning">North Island Brown Kiwi</h3>
+          <img src="assets/kiwi.png" alt="kiwi" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>Kiwis hatch fully feathered and ready to forage on their own</p>
+            </div> 
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Apteryx mantelli</li>
+              <li><span class="text-bold">Average Height</span>: 2 feet tall</li>
+              <li><span class="text-bold">Average Lifespan</span>: 25 - 50 years</li>
+              <li><span class="text-bold">Habitat</span>: Coniferous forests</li>
+            </ul>
+            <p>The kiwi is a small flightless bird, distantly related to ostriches and emus. They have hair-like feathers, large eggs, and nostrils at the tip of their beaks.</p>
+            <a href="kiwi.html"></a>
+          </div> <!-- end info box -->
+          
+          <div class="read-post mt-4">
+            <a href="kiwi.html" class="btn btn-info">Read more</a>
           </div>
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Trichechus manatus</li>
-            <li><span class="text-bold">Average Length</span>: 4 meters (13 feet)</li>
-            <li><span class="text-bold">Average Lifespan</span>: 65 years</li>
-            <li><span class="text-bold">Habitat</span>: Rivers, bays, and estuaries</li>
-          </ul>
-          <p>Manatees are large, aquatic herbivorous mammals that live in shallow waters of the Caribbean, Gulf of Mexico, Amazon basin, and West Africa. They are slow but agile swimmers and can continuously generate their teeth.</p>
-          <a href="manatee.html"></a>
-        </div> <!-- end info box -->
-        <div class="read-post mt-4">
-          <a href="manatee.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
+        </div> <!-- end animal card -->
 
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning">Nine-banded Armadillo</h3>
-        <img src="assets/armadillo.png" alt="armadillo" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>Armadillos sometimes share burrows with rats, tortoises, and snakes</p>
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning">West Indian Manatee</h3>
+          <img src="assets/manatee.png" alt="manatee" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>The Manateeʼs closest living relative is the elephant</p>
+            </div>
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Trichechus manatus</li>
+              <li><span class="text-bold">Average Length</span>: 4 meters (13 feet)</li>
+              <li><span class="text-bold">Average Lifespan</span>: 65 years</li>
+              <li><span class="text-bold">Habitat</span>: Rivers, bays, and estuaries</li>
+            </ul>
+            <p>Manatees are large, aquatic herbivorous mammals that live in shallow waters of the Caribbean, Gulf of Mexico, Amazon basin, and West Africa. They are slow but agile swimmers and can continuously generate their teeth.</p>
+            <a href="manatee.html"></a>
+          </div> <!-- end info box -->
+          <div class="read-post mt-4">
+            <a href="manatee.html" class="btn btn-info">Read more</a>
           </div>
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Dasypus novemcinctus</li>
-            <li><span class="text-bold">Average Length</span>: 75 cm (30 in)</li>
-            <li><span class="text-bold">Average Lifespan</span>: 12-15 years</li>
-            <li><span class="text-bold">Habitat</span>: rain forests, grasslands, and dry scrub</li>
-          </ul>
-          <p>Armadillos are mammals with leathery armor and strong claws for digging. They are distantly related to anteaters and sloths. They give birth once a year to either four males or four females.</p>
-          <a href="armadillo.html"></a>
-        </div> <!-- end info box -->
-        <div class="read-post mt-4">
-          <a href="armadillo.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
+        </div> <!-- end animal card -->
 
-      <div class="animal-card">
-        <h3 class="rubik-header-text text-warning">Platypus</h3>
-        <img src="assets/platypus.png" alt="platypus" class="animal-image">
-        <div class="info-box">
-          <div class="interesting-facts">
-            <p>Platypus glow under black light (biofluoresence) and they donʼt have a true stomach.</p>
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning">Nine-banded Armadillo</h3>
+          <img src="assets/armadillo.png" alt="armadillo" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>Armadillos sometimes share burrows with rats, tortoises, and snakes</p>
+            </div>
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Dasypus novemcinctus</li>
+              <li><span class="text-bold">Average Length</span>: 75 cm (30 in)</li>
+              <li><span class="text-bold">Average Lifespan</span>: 12-15 years</li>
+              <li><span class="text-bold">Habitat</span>: rain forests, grasslands, and dry scrub</li>
+            </ul>
+            <p>Armadillos are mammals with leathery armor and strong claws for digging. They are distantly related to anteaters and sloths. They give birth once a year to either four males or four females.</p>
+            <a href="armadillo.html"></a>
+          </div> <!-- end info box -->
+          <div class="read-post mt-4">
+            <a href="armadillo.html" class="btn btn-info">Read more</a>
           </div>
-          <ul>
-            <li><span class="text-bold">Scientific Name</span>: Ornithorhynchus anatinus</li>
-            <li><span class="text-bold">Average Length</span>: 20 inches</li>
-            <li><span class="text-bold">Average Lifespan</span>: 17 years</li>
-            <li><span class="text-bold">Habitat</span>: Rivers, streams and other freshwater</li>
-          </ul>
-          <p>The platypus is a egg-laying mammal native to eastern Australia and Tasmania. It uses electrolocation to sense prey in water and males have a venomous spur on their hind legs. They were once hunted for their fur and today their population is threatenened by habitat destruction and pollution</p>
-          <a href="platypus.html"></a>
-        </div> <!-- end info box -->
-        <div class="read-post mt-4">
-          <a href="platypus.html" class="btn btn-info">Read more</a>
-        </div>
-      </div> <!-- end animal card -->
+        </div> <!-- end animal card -->
 
-    </div> <!-- end posts -->
+        <div class="animal-card">
+          <h3 class="rubik-header-text text-warning">Platypus</h3>
+          <img src="assets/platypus.png" alt="platypus" class="animal-image">
+          <div class="info-box">
+            <div class="interesting-facts">
+              <p>Platypus glow under black light (biofluoresence) and they donʼt have a true stomach.</p>
+            </div>
+            <ul>
+              <li><span class="text-bold">Scientific Name</span>: Ornithorhynchus anatinus</li>
+              <li><span class="text-bold">Average Length</span>: 20 inches</li>
+              <li><span class="text-bold">Average Lifespan</span>: 17 years</li>
+              <li><span class="text-bold">Habitat</span>: Rivers, streams and other freshwater</li>
+            </ul>
+            <p>The platypus is a egg-laying mammal native to eastern Australia and Tasmania. It uses electrolocation to sense prey in water and males have a venomous spur on their hind legs. They were once hunted for their fur and today their population is threatenened by habitat destruction and pollution</p>
+            <a href="platypus.html"></a>
+          </div> <!-- end info box -->
+          <div class="read-post mt-4">
+            <a href="platypus.html" class="btn btn-info">Read more</a>
+          </div>
+        </div> <!-- end animal card -->
+
+      </div> <!-- end posts -->
+    </section>
     
     <!-- subscribe section -->
     <section class="subscribe-section">
@@ -182,7 +184,7 @@
             <div class="subscribe">
               <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
               <div class="input-group">
-                 <input type="email" class="form-control" placeholder="Enter your email">
+                 <input type="email" id="email-subscribe" class="form-control" placeholder="Enter your email">
                  <span class="input-group-btn">
                  <button class="btn btn-warning" type="submit">Subscribe</button>
                  </span>
