@@ -1,10 +1,7 @@
+@import url('normalize.css');
 @import url('index.css');
-
-.headline-row {
-  background-color: var(--davys-gray);
-  width: 100%;
-  padding: 1em;
-}
+@import url('design.css');
+@import url('cards.css');
 
 .posts {
   width: 90%;
@@ -13,60 +10,10 @@
   margin: auto;
 }
 
-.animal-card {
-  background-color: var(--verdigris);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 1.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-}
-
-.animal-image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.animal-info-card {
-  margin-top: 1em;
-  background-color: var(--grim-reaper);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .avatar {
   width: 150px; 
   height: 150px; 
   object-fit: cover;
 }
 
-.info-box {
-  padding: 1em;
-  background-color: #b3e0de;
-  flex: 1;
-}
 
-.figure-img {
-  background-color: #fff;
-  padding: 0.1em;
-}
-
-.animal-image, .info-box, .header-text {
-  flex-basis: 100%;
-  margin: 1em;
-}
-
-.read-post {
-  text-align: center;
-  margin-top: auto;
-}
-
-.read-post .btn-info {
-  background-color: var(--cerulean);
-  border: none;
-  color: white;
-}

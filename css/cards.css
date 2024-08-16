@@ -1,0 +1,123 @@
+.animal-card {
+  background-color: var(--verdigris);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.animal-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.animal-info-card {
+  margin-top: 1em;
+  background-color: var(--grim-reaper);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-box {
+  padding: 1em;
+  background-color: #b3e0de;
+  flex: 1;
+}
+
+.figure-img {
+  background-color: #fff;
+  padding: 0.1em;
+}
+
+.animal-image, .info-box, .header-text {
+  flex-basis: 100%;
+  margin: 1em;
+}
+
+.read-post {
+  text-align: center;
+  margin-top: auto;
+}
+
+.read-post .btn-info {
+  background-color: var(--cerulean);
+  border: none;
+  color: white;
+}
+
+.animal-card, .additional-info-card {
+  background-color: var(--verdigris);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+.animal-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 0.1em;
+  border-radius: 5px;
+}
+
+.info-box {
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #b3e0de;
+  flex-grow: 1;
+  margin-top: 1em;
+}
+
+.read-post {
+  text-align: center;
+  margin-top: auto;
+}
+
+.read-post .btn-info {
+  background-color: var(--cerulean);
+  border: none;
+  color: #fff;
+}
+
+.animal-card {
+  background-color: var(--verdigris);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+  padding: 1.5em;
+  flex: 1 1 300px;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.animal-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.info-box {
+  margin-top: 1em;
+}
+
+.interesting-facts {
+  background-color: var(--bittersweet);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
