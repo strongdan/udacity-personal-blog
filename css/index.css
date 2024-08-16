@@ -46,35 +46,12 @@ nav button {
   visibility: visible;
 }
 
-footer {
+footer,
+.footer {
   background-color: var(--davys-gray);
   color: var(--naples-yellow);
-}
-
-.subscribe-section {
-  background-color: var(--cerulean);
-  padding-bottom: 1em;
-}
-
-.subscribe {
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  width: 50%;
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
-.read-post {
   text-align: center;
-  margin-top: auto;
-}
-
-.read-post .btn-info {
-  background-color: var(--cerulean);
-  border: none;
+  padding: 2em 0;
 }
 
 .subscribe-section {
@@ -88,15 +65,8 @@ footer {
   margin: auto;
 }
 
-.footer {
-  background-color: var(--davys-gray);
-  padding: 2em 0;
-  color: var(--naples-yellow);
-  text-align: center;
-}
-
 .footer-social {
-  background-color: #0d163a;
+  background-color: var(--grim-reaper);
   color: var(--naples-yellow);
   text-align: center;
   padding: 2em 0;

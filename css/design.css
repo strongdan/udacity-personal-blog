@@ -19,10 +19,8 @@ body {
 }
 
 .rubik-headline-text {
-  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   color: var(--naples-yellow);
   text-shadow: var(--davys-gray);
 }
