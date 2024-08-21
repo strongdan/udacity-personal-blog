@@ -5,7 +5,19 @@
   width: 50%;
 }
 
-.animal-card,
+.animal-card {
+  margin-bottom: 1em;
+  background-color: var(--verdigris);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+
 .additional-info-card {
   background-color: var(--verdigris);
   border-radius: 10px;

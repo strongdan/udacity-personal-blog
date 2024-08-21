@@ -1,64 +1,15 @@
 @import url('design.css');
 @import url('cards.css');
 
-.headline-row {
-  background-color: var(--grim-reaper);
-  width: 100%;
-  padding: 1em;
-}
-
-.posts-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(2, auto); 
-  gap: 2em; 
-  margin: 2em auto;
-  max-width: 1200px;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-footer,
-.footer {
-  background-color: var(--davys-gray);
-  color: var(--naples-yellow);
-  text-align: center;
-  padding: 2em 0;
-}
-
-.subscribe-section {
-  background-color: var(--cerulean);
-  padding: 2em 0;
-  text-align: center;
-}
-
-.subscribe {
-  max-width: 500px;
-  margin: auto;
-}
-
-.footer-social {
-  background-color: var(--grim-reaper);
-  color: var(--naples-yellow);
-  text-align: center;
-  padding: 2em 0;
-}
-
+/* Navbar */
 .navbar {
-  background-color: #f8f9fa;
+  background-color: var(--cerulean);
   padding: 0.5em 1em;
-  border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar-container {
@@ -66,12 +17,15 @@ footer,
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .navbar-brand {
   font-size: 1.5em;
   font-weight: bold;
-  color: #000;
+  color: var(--naples-yellow); 
   text-decoration: none;
 }
 
@@ -85,7 +39,7 @@ footer,
 .navbar-toggler-icon {
   width: 30px;
   height: 3px;
-  background-color: #000;
+  background-color: var(--naples-yellow); /* Updated color */
   display: block;
   position: relative;
 }
@@ -95,7 +49,7 @@ footer,
   content: "";
   width: 30px;
   height: 3px;
-  background-color: #000;
+  background-color: var(--naples-yellow); /* Updated color */
   position: absolute;
   left: 0;
 }
@@ -129,7 +83,7 @@ footer,
 
 .nav-link {
   text-decoration: none;
-  color: #000;
+  color: var(--ecru); /* Updated text color */
   font-size: 1em;
 }
 
@@ -141,7 +95,7 @@ footer,
 .search-input {
   padding: 0.5em;
   font-size: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cerulean);
   border-radius: 0.25em;
   margin-right: 0.5em;
 }
@@ -149,13 +103,92 @@ footer,
 .search-btn {
   padding: 0.5em 1em;
   font-size: 1em;
-  background-color: #28a745;
+  background-color: var(--verdigris);
   color: white;
   border: none;
   border-radius: 0.25em;
   cursor: pointer;
 }
 
+/* Headline Row */
+.headline-row {
+  background-color: var(--glaucous);
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 1em;
+}
+
+/* Posts Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px; 
+  grid-template-rows: auto; 
+  gap: 2em; 
+  margin: 2em auto;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1em; /* Add padding to fit content within container */
+}
+
+.read-post {
+  margin-top: 1em;
+}
+
+/* Footer and Subscribe Sections */
+.footer,
+.subscribe-section,
+.footer-social {
+  width: 100%; /* Ensure they span the full width */
+  padding: 2em 0;
+  margin: 0; /* Remove any automatic margin that could center the content */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.footer {
+  background-color: var(--davys-gray);
+  color: var(--naples-yellow);
+  text-align: center;
+}
+
+.footer-social {
+  background-color: var(--glaucous);
+  color: var(--naples-yellow);
+  text-align: center;
+}
+
+.footer-copyright {
+  background-color: var(--glaucous);
+}
+.subscribe-section {
+  background-color: var(--cerulean);
+  text-align: center;
+}
+
+.subscribe {
+  max-width: 500px; /* Keep the subscribe form centered */
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
   .navbar-toggler {
     display: block;
@@ -190,10 +223,7 @@ footer,
   .search-btn {
     width: 100%;
   }
-}
 
-
-@media (max-width: 768px) {
   .animal-card {
     max-width: 100%;
   }
