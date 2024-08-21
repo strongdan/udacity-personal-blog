@@ -16,7 +16,7 @@
   justify-content: space-between;
   margin: 1em;
   flex: 1 1 300px;
-  max-width: 45%;
+  max-width: 100%; /* Ensure full width in grid layout */
   height: 100%;
 }
 
@@ -61,10 +61,14 @@
   margin-top: auto;
 }
 
-.read-post .btn-info {
+.read-post a {
   background-color: var(--cerulean);
   border: none;
   color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .header-text {
