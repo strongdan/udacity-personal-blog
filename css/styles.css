@@ -11,7 +11,25 @@
 }
 
 .avatar {
-  width: 150px; 
-  height: 150px; 
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  border-radius: 50%;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container {
+  margin-right: 1rem;
+}
+
+.author-info h1, .author-info h2, .author-info p {
+  margin: 0;
+}
+
+.author-info {
+  max-width: calc(100% - 120px);
 }

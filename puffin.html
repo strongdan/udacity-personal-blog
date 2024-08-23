@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,148 +11,135 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2bcdf2ea8d.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  </head>
 
-    <!-- Header Section -->
-    <header>
-      <div class="headline-row">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="display-3 rubik-header-text text-left ml-3">Atlantic Puffin</h1>
-          </div>
-          <div class="col-12">
-            <h2 class="rubik-header-text text-left ml-3">Author: <a href="author.html">Daniel Strong</a></h5>
-          </div>
-        </div>
-        <div class="row mt-3 ml-3">
-          <!-- Share Text -->
-          <div class="col-auto px-0">
-            <p class="mb-0 text-left">Share:</p>
-          </div>
-          <!-- Facebook Button -->
-          <div class="col-auto px-0">
-            <a target="_blank"
-              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-              class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </div>
-          <!-- Twitter Button -->
-          <div class="col-auto px-0">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-              class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2"
-              data-show-count="false">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
-          <!-- LinkedIn Button -->
-          <div class="col-auto px-0">
-            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com"
-              class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="bg-dark">
-        <p class="lead animal-lead text-warning w-75 ml-2">Puffins are small seabirds that feed by diving in the water and live in large colonies on rocky cliffs. They have short wings adapted for swimming underwater and can beat their wings up to 400 times per minute for low flight.</p>
-      </div>
-    </div>
-  </header>
+  <body>
+    <!-- facebook share link necessary code -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0&appId=878301360342411" nonce="c51057xz"></script>
 
-  <section>
-    <div class="container mt-2 mb-4">
-      <div class="row clearfix">
-        <div class="col-sm-6 d-flex">
-          <div class="card animal-info-card border-0 h-100">
-            <div class="card-body d-flex flex-column">
-              <img src="assets/puffin.png" class="animal-image img-fluid" alt="Atlantic puffin, Fratercula arctica">
-              <small class="text-center mb-4"><figcaption class="text-muted">Atlantic puffin, Fratercula arctica</figcaption></small>
-              <div class="info-box mt-auto">
-                <ul class="list-group list-unstyled">
-                  <li class="list-group-item list-group-item-info"><span class="text-bold">Scientific Name</span>: <em>Fratercula arctica</em></li>
-                  <li class="list-group-item list-group-item-info"><span class="text-bold">Average Length</span>: 28 to 30 cm (11 to 12 inches)</li>
-                  <li class="list-group-item list-group-item-info"><span class="text-bold">Average Lifespan</span>: 25 years</li>
-                  <li class="list-group-item list-group-item-info"><span class="text-bold">Habitat</span>: Sea cliffs and rocky islands</li>
-                </ul>
-                <div class="text-center mt-4">
-                  <a href="https://en.wikipedia.org/wiki/Atlantic_puffin" class="btn btn-secondary mt-auto" aria-label="Read more about Atlantic Puffin on Wikipedia">Read more on Wikipedia</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 d-flex">
-          <div class="card animal-info-card border-0 h-100">
-            <div class="card-body d-flex flex-column">
-              <img src="assets/puffin-2.png" class="animal-image img-fluid" alt="Another image of an Atlantic Puffin">
-              <small class="text-center mb-4"><figcaption class="text-muted"><a href="https://commons.wikimedia.org/wiki/File:Puffin_(Fratercula_arctica).jpg">Charles J. Sharp</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption></small>
-              <div class="info-box mt-auto">
-                <h5 class="card-title rubik-header-text shadow-lg text-center">Interesting Facts</h5>
-                <ul class="list-group list-unstyled">
-                  <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                    <blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                      Nicknamed “sea parrots,” puffins have black and white feathers and a colorful beak that changes from grey in winter to bright orange in spring.
-                    </blockquote>
-                  </li>
-                  <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                    <blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                      Puffins are excellent swimmers and divers, using their wings to “fly” underwater and reaching depths of up to 60 meters.
-                    </blockquote>
-                  </li>
-                  <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                    <blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                      They can flap their wings up to 400 times a minute, flying at speeds up to 88 km/h.
-                    </blockquote>
-                  </li>
-                  <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                    <blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
-                      Puffins mate for life, returning to the same burrow each year to raise their single chick, known as a “puffling.”
-                    </blockquote>
-                  </li>                  
-                </ul>
-              </div>
-            </div>
-          </div>
+    <!-- nav section -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="navbar-brand" href="index.html">Animal Info</a>
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="search-form" role="search">
+            <input class="search-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn" type="submit">Search</button>
+          </form>
         </div>
       </div>
-    </div>
-  </section>
-      
-    <!-- Subscribe Section -->
-    <section class="subscribe-section">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="subscribe">
-                        <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-warning" type="submit">Subscribe</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </nav>
+
+    <!-- header section -->
+    <header class="headline-row">
+      <div class="headline">
+        <h1 class="rubik-headline-text">Atlantic Puffin</h1>
+        <h2 class="rubik-headline-text">Author: <a href="author.html">Daniel Strong</a></h2>
+      </div>
+      <div class="social-share">
+        <p class="lead">Share:</p>
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="social-icon" data-show-count="false">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </header>
+
+    <section class="bg-dark animal-lead">
+      <p class="lead">Puffins are small seabirds that feed by diving in the water and live in large colonies on rocky cliffs. They have short wings adapted for swimming underwater and can beat their wings up to 400 times per minute for low flight.</p>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="text-center">
-        <div class="container p-4 pb-0">
-            <section class="mb-2">
-                <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
-                <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
-                <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-linkedin"></i></a>
-            </section>
+    <section class="animal-info-main">
+      <div class="card-container">
+        <div class="animal-card">
+          <figure class="animal-figure">
+            <img src="assets/puffin.png" class="animal-image" alt="Atlantic puffin, Fratercula arctica">
+            <figcaption class="animal-caption">Atlantic puffin, Fratercula arctica</figcaption>
+          </figure>
+          <div class="info-box">
+            <ul class="info-list">
+              <li><span class="text-bold">Scientific Name</span>: <em>Fratercula arctica</em></li>
+              <li><span class="text-bold">Average Length</span>: 28 to 30 cm (11 to 12 inches)</li>
+              <li><span class="text-bold">Average Lifespan</span>: 25 years</li>
+              <li><span class="text-bold">Habitat</span>: Sea cliffs and rocky islands</li>
+            </ul>
+            <div class="text-center rubik-dark-text">
+              <a href="https://en.wikipedia.org/wiki/Atlantic_puffin" class="btn" aria-label="Read more about Atlantic Puffin on Wikipedia">Read more on Wikipedia</a>
+            </div>
+          </div>
         </div>
 
-        <div class="text-center p-3 bg-dark">
-            © 2024 Copyright Daniel Strong
+        <div class="animal-card">
+          <figure class="animal-figure">
+            <img src="assets/puffin-2.png" class="animal-image" alt="Another image of an Atlantic Puffin">
+            <figcaption class="animal-caption">
+              <a href="https://commons.wikimedia.org/wiki/File:Puffin_(Fratercula_arctica).jpg">Charles J. Sharp</a>, 
+              <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+            </figcaption>
+          </figure>
+          <div class="info-box">
+            <h5 class="rubik-header-text text-center">Interesting Facts</h5>
+            <ul class="info-list">
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
+                Nicknamed “sea parrots,” puffins have black and white feathers and a colorful beak that changes from grey in winter to bright orange in spring.
+              </blockquote></li>
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
+                Puffins are excellent swimmers and divers, using their wings to “fly” underwater and reaching depths of up to 60 meters.
+              </blockquote></li>
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
+                They can flap their wings up to 400 times a minute, flying at speeds up to 88 km/h.
+              </blockquote></li>
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/birds/puffin-facts/">
+                Puffins mate for life, returning to the same burrow each year to raise their single chick, known as a “puffling.”
+              </blockquote></li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
+    
+    <!-- subscribe section -->
+    <section class="subscribe-section">
+      <div class="subscribe-container">
+        <div class="subscribe">
+          <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
+          <div class="subscribe-input-group">
+            <input type="email" id="email-subscribe" class="subscribe-input" placeholder="Enter your email">
+            <button class="subscribe-btn" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <section class="footer-social">
+          <!-- Social media links -->
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+        </section>
+      </div>
+
+      <!-- Copyright section -->
+      <div class="footer-copyright">
+        © 2024 Copyright Daniel Strong
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

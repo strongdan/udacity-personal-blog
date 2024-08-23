@@ -14,167 +14,135 @@
   </head>
 
   <body>
-
     <!-- facebook share link necessary code -->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0&appId=878301360342411" nonce="c51057xz"></script>
 
-<!-- Header Section -->
-<header>
-  <div class="headline-row">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="display-3 rubik-header-text text-left ml-3">European Hedgehog</h1>
+    <!-- nav section -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="navbar-brand" href="index.html">Animal Info</a>
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="search-form" role="search">
+            <input class="search-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-      <div class="col-12">
-        <h2 class="rubik-header-text text-left ml-3">Author: <a href="author.html">Daniel Strong</a></h2>
+    </nav>
+
+    <!-- header section -->
+    <header class="headline-row">
+      <div class="headline">
+        <h1 class="rubik-headline-text">European Hedgehog</h1>
+        <h2 class="rubik-headline-text">Author: <a href="author.html">Daniel Strong</a></h2>
       </div>
-    </div>
-    <div class="row mt-3 ml-3">
-      <!-- Share Text -->
-      <div class="col-auto px-0">
-        <p class="mb-0 text-left">Share:</p>
-      </div>
-      <!-- Facebook Button -->
-      <div class="col-auto px-0">
-        <a target="_blank"
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-          class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
+      <div class="social-share">
+        <p class="lead">Share:</p>
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="social-icon">
           <i class="fab fa-facebook-f"></i>
         </a>
-      </div>
-      <!-- Twitter Button -->
-      <div class="col-auto px-0">
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2"
-          data-show-count="false">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="social-icon" data-show-count="false">
           <i class="fab fa-twitter"></i>
         </a>
-      </div>
-      <!-- LinkedIn Button -->
-      <div class="col-auto px-0">
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com"
-          class="btn btn-primary btn-sm text-white text-decoration-none d-flex align-items-center ml-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com" class="social-icon">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </div>
-    </div>
-  </div>
-  <div class="bg-dark">
-    <p class="lead animal-lead text-warning w-75 ml-2">Hedgehogs are small mammals that are born with soft spines which later harden to protect them. They are mostly nocturnal and eat insects, as well as small mice, snails, lizards, frogs, eggs, and even snakes</p>
-  </div>
-</div>
-</header>
+    </header>
 
-<section>
-  <div class="container mt-2 mb-4">
-    <div class="row clearfix">
-      <div class="col-sm-6 d-flex">
-        <div class="card animal-info-card border-0 h-100">
-          <div class="card-body d-flex flex-column">
-            <figure class="text-center">
-              <img src="assets/hedgehog.png" class="animal-image img-fluid" alt="Hedgehog, Erinaceinae">
-              <figcaption class="text-muted">Hedgehog, Erinaceinae</figcaption>
-            </figure>
-            <div class="info-box mt-auto">
-              <ul class="list-group list-unstyled">
-                <li class="list-group-item list-group-item-info"><span class="text-bold">Scientific Name</span>: <em>Erinaceus europaeus</em></li>
-                <li class="list-group-item list-group-item-info"><span class="text-bold">Average Length</span>: 14 to 30 cm (5.5 to 12 inches)</li>
-                <li class="list-group-item list-group-item-info"><span class="text-bold">Average Lifespan</span>: 3 to 7 years</li>
-                <li class="list-group-item list-group-item-info"><span class="text-bold">Habitat</span>: Forests, grasslands, and gardens</li>
-              </ul>
-              <div class="text-center mt-4">
-                <a href="https://en.wikipedia.org/wiki/European_hedgehog" class="btn btn-secondary mt-auto" aria-label="Read more on Wikipedia">Read more on Wikipedia</a>
-              </div>
+    <section class="bg-dark animal-lead">
+      <p class="lead">Hedgehogs are small mammals that are born with soft spines which later harden to protect them. They are mostly nocturnal and eat insects, as well as small mice, snails, lizards, frogs, eggs, and even snakes</p>
+    </section>
+
+    <section class="animal-info-main">
+      <div class="card-container">
+        <div class="animal-card">
+          <figure class="animal-figure">
+            <img src="assets/hedgehog.png" class="animal-image" alt="Hedgehog, Erinaceinae">
+            <figcaption class="animal-caption">Hedgehog, Erinaceinae</figcaption>
+          </figure>
+          <div class="info-box">
+            <ul class="info-list">
+              <li><span class="text-bold">Scientific Name</span>: <em>Erinaceus europaeus</em></li>
+              <li><span class="text-bold">Average Length</span>: 14 to 30 cm (5.5 to 12 inches)</li>
+              <li><span class="text-bold">Average Lifespan</span>: 3 to 7 years</li>
+              <li><span class="text-bold">Habitat</span>: Forests, grasslands, and gardens</li>
+            </ul>
+            <div class="text-center rubik-dark-text">
+              <a href="https://en.wikipedia.org/wiki/European_hedgehog" class="btn" aria-label="Read more about European Hedgehog on Wikipedia">Read more on Wikipedia</a>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-sm-6 d-flex">
-        <div class="card animal-info-card border-0 h-100">
-          <div class="card-body d-flex flex-column">
-            <figure class="text-center">
-              <img src="assets/hedgehog-2.png" class="animal-image img-fluid" alt="Another image of a Hedgehog">
-              <figcaption class="text-muted">
-                By <a href="https://commons.wikimedia.org/wiki/File:Igel.JPG">Gibe</a>, 
-                <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
-              </figcaption>
-            </figure>
-            <div class="info-box mt-auto">
-              <h5 class="card-title rubik-header-text shadow-lg text-center">Interesting Facts</h5>
-              <ul class="list-group list-unstyled">
-                <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
-                  <blockquote cite="https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
-                    Hedgehogs are covered in spines, which they use to protect themselves from predators by curling up into a tight ball.
-                  </blockquote>
-                </li>
-                <li class="list-group-item list-group-item-info" title="source: https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
-                  <blockquote cite="https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
-                    They have poor eyesight but an excellent sense of smell and hearing, which they use to find food.
-                  </blockquote>
-                </li>
-                <li class="list-group-item list-group-item-info" title="source: https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                  <blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                    Hedgehogs are nocturnal creatures, meaning they are active during the night and sleep during the day.
-                  </blockquote>
-                </li>
-                <li class="list-group-item list-group-item-info" title="source: https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                  <blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                    They are insectivores, primarily feeding on insects, but they also eat small vertebrates and fruits.
-                  </blockquote>
-                </li>
-                <li class="list-group-item list-group-item-info" title="source: https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                  <blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
-                    Hedgehogs can hibernate during colder months if the weather becomes too cold or food becomes scarce.
-                  </blockquote>
-                </li>                    
-              </ul>
-            </div>
+        <div class="animal-card">
+          <figure class="animal-figure">
+            <img src="assets/hedgehog-2.png" class="animal-image" alt="Another image of a Hedgehog">
+            <figcaption class="animal-caption">
+              By <a rel="nofollow" class="external text" href="https://commons.wikimedia.org/wiki/File:Igel.JPG">Gibe</a>, 
+              <a rel="nofollow" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+            </figcaption>
+          </figure>
+          <div class="info-box">
+            <h5 class="rubik-header-text text-center">Interesting Facts</h5>
+            <ul class="info-list">
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
+                Hedgehogs are covered in spines, which they use to protect themselves from predators by curling up into a tight ball.
+              </blockquote></li>
+              <li><blockquote cite="https://www.natgeokids.com/uk/discover/animals/general-animals/hedgehog-facts/">
+                They have poor eyesight but an excellent sense of smell and hearing, which they use to find food.
+              </blockquote></li>
+              <li><blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
+                Hedgehogs are nocturnal creatures, meaning they are active during the night and sleep during the day.
+              </blockquote></li>
+              <li><blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
+                They are insectivores, primarily feeding on insects, but they also eat small vertebrates and fruits.
+              </blockquote></li>
+              <li><blockquote cite="https://kids.nationalgeographic.com/animals/mammals/facts/hedgehog">
+                Hedgehogs can hibernate during colder months if the weather becomes too cold or food becomes scarce.
+              </blockquote></li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  
+    </section>
+
     <!-- subscribe section -->
     <section class="subscribe-section">
-      <div class="container mt-4">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="subscribe">
-              <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
-              <div class="input-group">
-                 <input type="email" class="form-control" placeholder="Enter your email">
-                 <span class="input-group-btn">
-                 <button class="btn btn-warning" type="submit">Subscribe</button>
-                 </span>
-              </div>
-            </div>
+      <div class="subscribe-container">
+        <div class="subscribe">
+          <h4 class="rubik-header-text">Subscribe to my newsletter</h4>
+          <div class="subscribe-input-group">
+            <input type="email" id="email-subscribe" class="subscribe-input" placeholder="Enter your email">
+            <button class="subscribe-btn" type="submit">Subscribe</button>
           </div>
         </div>
       </div>
     </section>
     
     <!-- footer section -->
-    <footer class="text-center">
-      <div class="container p-4 pb-0">
-        <section class="mb-2">
-          <!-- Facebook -->
-          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
-          <!-- Twitter -->
-          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
-          <!-- Linkedin -->
-          <a class="btn" href="#!" role="button"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+    <footer class="footer">
+      <div class="footer-container">
+        <section class="footer-social">
+          <!-- Social media links -->
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-facebook"></i></a>
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
+          <a class="social-btn" href="#!" role="button"><i class="fa-brands fa-3x fa-linkedin"></i></a>
         </section>
       </div>
 
       <!-- Copyright section -->
-      <div class="text-center p-3 bg-dark">
+      <div class="footer-copyright">
         © 2024 Copyright Daniel Strong
       </div>
-      
     </footer>
   </body>
 </html>
